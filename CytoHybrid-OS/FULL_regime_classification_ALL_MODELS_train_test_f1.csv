@@ -1,0 +1,58 @@
+task,model,status,train_accuracy,train_balanced_accuracy,train_precision_macro,train_recall_macro,train_f1_macro,train_precision_weighted,train_recall_weighted,train_f1_weighted,test_accuracy,test_balanced_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_precision_weighted,test_recall_weighted,test_f1_weighted,accuracy,balanced_accuracy,f1_macro,f1_weighted
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.4,0.4,0.3855023923444976,0.4,0.36893267651888345,0.3855023923444976,0.4,0.3689326765188834,0.4,0.4,0.36893267651888345,0.3689326765188834
+regime_classification_all_models,Pure ML: RNAseq-like gene features,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.3,0.3,0.3106060606060606,0.3,0.2951111111111111,0.3106060606060606,0.3,0.2951111111111111,0.3,0.3,0.2951111111111111,0.2951111111111111
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.48,0.4800000000000001,0.49523809523809526,0.4800000000000001,0.4709420610349403,0.4952380952380952,0.48,0.4709420610349403,0.48,0.4800000000000001,0.4709420610349403,0.4709420610349403
+regime_classification_all_models,Mechanistic virtual-cell summaries,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.96,0.96,0.9666666666666668,0.96,0.9607655502392344,0.9666666666666667,0.96,0.9607655502392345,0.96,0.96,0.9607655502392344,0.9607655502392345
+regime_classification_all_models,Hybrid Type I: feature concatenation,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.96,0.96,0.9666666666666668,0.96,0.9607655502392344,0.9666666666666667,0.96,0.9607655502392345,0.96,0.96,0.9607655502392344,0.9607655502392345
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.64,0.6399999999999999,0.631962481962482,0.6399999999999999,0.6240424590888987,0.631962481962482,0.64,0.6240424590888987,0.64,0.6399999999999999,0.6240424590888987,0.6240424590888987
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,ok,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.94,0.9399999999999998,0.9484848484848485,0.9399999999999998,0.9395458342826764,0.9484848484848485,0.94,0.9395458342826764,0.94,0.9399999999999998,0.9395458342826764,0.9395458342826764
+regime_classification_all_models,Hybrid Type III: AI-inferred parameters -> MM surrogate,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,,,,,,,,,,,,
+regime_classification_all_models,Hybrid Type III+: parameterized MM + AI residual,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,,,,,,,,,,,,
+regime_classification_all_models,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,,,,,,,,,,,,
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,ok,0.9533333333333334,0.9533333333333334,0.9535038932146829,0.9533333333333334,0.9532092247846624,0.953503893214683,0.9533333333333334,0.9532092247846625,0.28,0.27999999999999997,0.2475,0.27999999999999997,0.24361416361416363,0.2475,0.28,0.24361416361416363,0.28,0.27999999999999997,0.24361416361416363,0.24361416361416363
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,ok,0.76,0.76,0.7622564935064935,0.76,0.7583122929062862,0.7622564935064936,0.76,0.7583122929062862,0.16,0.15999999999999998,0.057837837837837844,0.15999999999999998,0.07957446808510638,0.057837837837837844,0.16,0.07957446808510638,0.16,0.15999999999999998,0.07957446808510638,0.07957446808510638

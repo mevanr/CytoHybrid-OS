@@ -1,0 +1,7 @@
+task,model,accuracy,balanced_accuracy
+regime_classification,Pure ML: pseudo-bulk marker modules,0.42,0.41999999999999993
+regime_classification,Pure ML: RNAseq-like gene features,0.26,0.25999999999999995
+regime_classification,Pure ML: bulk + spatial marker modules,0.48,0.4800000000000001
+regime_classification,Mechanistic virtual-cell summaries,0.96,0.96
+regime_classification,Hybrid: RNAseq + marker modules + spatial + virtual-cell MM,0.96,0.96
+regime_classification,Hybrid: marker modules + spatial + virtual-cell MM,0.96,0.96

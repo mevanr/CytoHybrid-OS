@@ -1,0 +1,184 @@
+analysis_type,model,status_summary,train_f1_macro,test_f1_macro,f1_macro,train_balanced_accuracy,test_balanced_accuracy,balanced_accuracy,train_R2,test_R2,R2
+classification,Pure ML: pseudo-bulk marker modules,ok,1,0.368932677,0.368932677,1,0.4,0.4,,,
+classification,Pure ML: RNAseq-like gene features,ok,1,0.295111111,0.295111111,1,0.3,0.3,,,
+classification,Pure ML: bulk + spatial marker modules,ok,1,0.470942061,0.470942061,1,0.48,0.48,,,
+classification,Mechanistic virtual-cell summaries,ok,1,0.96076555,0.96076555,1,0.96,0.96,,,
+classification,Hybrid Type I: feature concatenation,ok,1,0.96076555,0.96076555,1,0.96,0.96,,,
+classification,Hybrid Type II: MM prediction + AI residual correction,ok,1,0.939545834,0.939545834,1,0.94,0.94,,,
+classification,Hybrid Type III: AI-inferred parameters -> MM surrogate,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+classification,Hybrid Type III+: parameterized MM + AI residual,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+classification,Hybrid Type IV/V: biology-informed residual-dynamics proxy,ok,1,0.624042459,0.624042459,1,0.64,0.64,,,
+classification,Hybrid Type V: Neural-ODE learned residual dynamics,ok,0.953209225,0.243614164,0.243614164,0.953333333,0.28,0.28,,,
+classification,Hybrid Type IV: reduced state-space PINN,ok,0.758312293,0.079574468,0.079574468,0.76,0.16,0.16,,,
+classification,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+future_burden,Pure ML: pseudo-bulk marker modules,ok,,,,,,,0.921289925,0.553367228,0.553367228
+future_burden,Pure ML: RNAseq-like gene features,ok,,,,,,,0.902413142,0.385038699,0.385038699
+future_burden,Pure ML: bulk + spatial marker modules,ok,,,,,,,0.942429254,0.71242245,0.71242245
+future_burden,Mechanistic virtual-cell summaries,ok,,,,,,,0.999352764,0.996925224,0.996925224
+future_burden,Hybrid Type I: feature concatenation,ok,,,,,,,0.999045509,0.995991311,0.995991311
+future_burden,Hybrid Type II: MM prediction + AI residual correction,ok,,,,,,,0.999796859,0.997078245,0.997078245
+future_burden,Hybrid Type III: AI-inferred parameters -> MM surrogate,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+future_burden,Hybrid Type III+: parameterized MM + AI residual,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+future_burden,Hybrid Type IV/V: biology-informed residual-dynamics proxy,ok,,,,,,,0.99382533,0.936243452,0.936243452
+future_burden,Hybrid Type V: Neural-ODE learned residual dynamics,ok,,,,,,,0.410009219,-11.84695813,-11.84695813
+future_burden,Hybrid Type IV: reduced state-space PINN,ok,,,,,,,-0.463597729,-60.39927181,-60.39927181
+future_burden,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+best_intervention,Pure ML: pseudo-bulk marker modules,ok,1,0.115151515,0.115151515,1,0.172727273,0.172727273,,,
+best_intervention,Pure ML: RNAseq-like gene features,ok,1,0.118309859,0.118309859,1,0.190909091,0.190909091,,,
+best_intervention,Pure ML: bulk + spatial marker modules,ok,1,0.149206349,0.149206349,1,0.196103896,0.196103896,,,
+best_intervention,Mechanistic virtual-cell summaries,ok,1,0.23984953,0.23984953,1,0.244805195,0.244805195,,,
+best_intervention,Hybrid Type I: feature concatenation,ok,1,0.171786834,0.171786834,1,0.197402597,0.197402597,,,
+best_intervention,Hybrid Type II: MM prediction + AI residual correction,ok,1,0.233201581,0.233201581,1,0.245021645,0.245021645,,,
+best_intervention,Hybrid Type III: AI-inferred parameters -> MM surrogate,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+best_intervention,Hybrid Type III+: parameterized MM + AI residual,"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+best_intervention,Hybrid Type IV/V: biology-informed residual-dynamics proxy,ok,1,0.12,0.12,1,0.190909091,0.190909091,,,
+best_intervention,Hybrid Type V: Neural-ODE learned residual dynamics,ok,0.967900075,0.138888889,0.138888889,0.989084249,0.141558442,0.141558442,,,
+best_intervention,Hybrid Type IV: reduced state-space PINN,ok,0.756667879,0.167895054,0.167895054,0.867179487,0.195887446,0.195887446,,,
+best_intervention,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),"failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- theta_hat_barrier
+- theta_hat_cytotoxic_gain
+- theta_hat_decay
+- theta_hat_diffusion
+- theta_hat_ecm_density
+- ...
+Feature names seen at fit time, yet now missing:
+- barrier
+- cytotoxic_gain
+- decay
+- diffusion
+- ecm_density
+- ...
+",,,,,,,,,
+parameter_recovery,Pure ML: pseudo-bulk marker modules,ok,,,,,,,0.849542925,0.030842029,0.030842029
+parameter_recovery,Pure ML: RNAseq-like gene features,ok,,,,,,,0.845260967,-0.01835836,-0.01835836
+parameter_recovery,Pure ML: bulk + spatial marker modules,ok,,,,,,,0.86646476,0.171925039,0.171925039
+parameter_recovery,Mechanistic virtual-cell summaries,ok,,,,,,,0.963970551,0.795307332,0.795307332
+parameter_recovery,Hybrid Type I: feature concatenation,ok,,,,,,,0.962090122,0.774910553,0.774910553
+parameter_recovery,Hybrid Type II: MM prediction + AI residual correction,"failed: Found input variables with inconsistent numbers of samples: [187, 150]",,,,,,,,,
+parameter_recovery,Hybrid Type III: AI-inferred parameters -> MM surrogate,failed: `x` and `y` must be broadcastable.;ok,,,,,,,0.86401994,0.128779255,0.128779255
+parameter_recovery,Hybrid Type III+: parameterized MM + AI residual,failed: `x` and `y` must be broadcastable.,,,,,,,,,
+parameter_recovery,Hybrid Type IV/V: biology-informed residual-dynamics proxy,ok,,,,,,,0.907196546,0.39246998,0.39246998
+parameter_recovery,Hybrid Type V: Neural-ODE learned residual dynamics,ok,,,,,,,0.822960979,-0.298491806,-0.298491806
+parameter_recovery,Hybrid Type IV: reduced state-space PINN,ok,,,,,,,0.683465041,-0.530945162,-0.530945162
+parameter_recovery,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),failed: `x` and `y` must be broadcastable.,,,,,,,,,

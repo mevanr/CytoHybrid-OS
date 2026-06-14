@@ -1,0 +1,7 @@
+task,model,R2,RMSE,MAE
+future_inflammatory_burden_prediction,Pure ML: pseudo-bulk marker modules,0.5492991861774896,0.07100540754564444,0.05770059500195213
+future_inflammatory_burden_prediction,Pure ML: RNAseq-like gene features,0.3956755227478065,0.0822209226316559,0.0682863974175957
+future_inflammatory_burden_prediction,Pure ML: bulk + spatial marker modules,0.7136875034527688,0.05659361099321973,0.043665613330862385
+future_inflammatory_burden_prediction,Mechanistic virtual-cell summaries,0.996587127831814,0.006178844479036009,0.0035948851705458946
+future_inflammatory_burden_prediction,Hybrid: RNAseq + marker modules + spatial + virtual-cell MM,0.9963776882339862,0.006365612041747427,0.004096539680963396
+future_inflammatory_burden_prediction,Hybrid: marker modules + spatial + virtual-cell MM,0.9963776882339862,0.006365612041747442,0.004096539680963408

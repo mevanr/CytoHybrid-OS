@@ -1,0 +1,49 @@
+analysis_type,model,present_in_output,ok_or_oracle
+classification,Pure ML: pseudo-bulk marker modules,True,True
+classification,Pure ML: RNAseq-like gene features,True,True
+classification,Pure ML: bulk + spatial marker modules,True,True
+classification,Mechanistic virtual-cell summaries,True,True
+classification,Hybrid Type I: feature concatenation,True,True
+classification,Hybrid Type II: MM prediction + AI residual correction,True,True
+classification,Hybrid Type III: AI-inferred parameters -> MM surrogate,True,False
+classification,Hybrid Type III+: parameterized MM + AI residual,True,False
+classification,Hybrid Type IV/V: biology-informed residual-dynamics proxy,True,True
+classification,Hybrid Type V: Neural-ODE learned residual dynamics,True,True
+classification,Hybrid Type IV: reduced state-space PINN,True,True
+classification,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),True,False
+future_burden,Pure ML: pseudo-bulk marker modules,True,True
+future_burden,Pure ML: RNAseq-like gene features,True,True
+future_burden,Pure ML: bulk + spatial marker modules,True,True
+future_burden,Mechanistic virtual-cell summaries,True,True
+future_burden,Hybrid Type I: feature concatenation,True,True
+future_burden,Hybrid Type II: MM prediction + AI residual correction,True,True
+future_burden,Hybrid Type III: AI-inferred parameters -> MM surrogate,True,False
+future_burden,Hybrid Type III+: parameterized MM + AI residual,True,False
+future_burden,Hybrid Type IV/V: biology-informed residual-dynamics proxy,True,True
+future_burden,Hybrid Type V: Neural-ODE learned residual dynamics,True,True
+future_burden,Hybrid Type IV: reduced state-space PINN,True,True
+future_burden,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),True,False
+best_intervention,Pure ML: pseudo-bulk marker modules,True,True
+best_intervention,Pure ML: RNAseq-like gene features,True,True
+best_intervention,Pure ML: bulk + spatial marker modules,True,True
+best_intervention,Mechanistic virtual-cell summaries,True,True
+best_intervention,Hybrid Type I: feature concatenation,True,True
+best_intervention,Hybrid Type II: MM prediction + AI residual correction,True,True
+best_intervention,Hybrid Type III: AI-inferred parameters -> MM surrogate,True,False
+best_intervention,Hybrid Type III+: parameterized MM + AI residual,True,False
+best_intervention,Hybrid Type IV/V: biology-informed residual-dynamics proxy,True,True
+best_intervention,Hybrid Type V: Neural-ODE learned residual dynamics,True,True
+best_intervention,Hybrid Type IV: reduced state-space PINN,True,True
+best_intervention,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),True,False
+parameter_recovery,Pure ML: pseudo-bulk marker modules,True,True
+parameter_recovery,Pure ML: RNAseq-like gene features,True,True
+parameter_recovery,Pure ML: bulk + spatial marker modules,True,True
+parameter_recovery,Mechanistic virtual-cell summaries,True,True
+parameter_recovery,Hybrid Type I: feature concatenation,True,True
+parameter_recovery,Hybrid Type II: MM prediction + AI residual correction,True,False
+parameter_recovery,Hybrid Type III: AI-inferred parameters -> MM surrogate,True,True
+parameter_recovery,Hybrid Type III+: parameterized MM + AI residual,True,False
+parameter_recovery,Hybrid Type IV/V: biology-informed residual-dynamics proxy,True,True
+parameter_recovery,Hybrid Type V: Neural-ODE learned residual dynamics,True,True
+parameter_recovery,Hybrid Type IV: reduced state-space PINN,True,True
+parameter_recovery,Hybrid Type VII: simulator surrogate with true parameters (oracle diagnostic),True,False

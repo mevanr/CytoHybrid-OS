@@ -1,0 +1,69 @@
+
+Transcriptomics-Informed Virtual Immune-Tissue Model
+====================================================
+
+This simulation implements a transcriptomics-informed virtual immune-tissue ABM.
+Each virtual macrophage, T cell, NK cell, and Treg carries internal gene-program
+scores, including NFkB_inflammatory, STAT3_IL6, IFNG_response,
+cytotoxic_program, exhaustion_program, TGFB_regulatory, repair_program, and
+migration_program.
+
+Unlike a purely rule-based ABM in which RNA modules are only downstream readouts,
+this model uses marker-gene/module programs upstream to regulate virtual-cell
+functions: activation, cytokine secretion, suppression, cytotoxicity, motility,
+proliferation, exhaustion, and repair.
+
+Number of simulated tissues: 200
+Regimes: acute_resolving, chronic, hyperinflammatory, immune_excluded, suppressed
+
+Compared model arms:
+1. Pure ML: pseudo-bulk marker modules
+2. Pure ML: bulk + spatial marker modules
+3. Mechanistic virtual-cell summaries
+4. Hybrid: marker modules + spatial + virtual-cell MM
+
+Classification results:
+                 task                                                       model  accuracy  balanced_accuracy
+regime_classification                         Pure ML: pseudo-bulk marker modules      0.42               0.42
+regime_classification                          Pure ML: RNAseq-like gene features      0.26               0.26
+regime_classification                      Pure ML: bulk + spatial marker modules      0.48               0.48
+regime_classification                          Mechanistic virtual-cell summaries      0.96               0.96
+regime_classification Hybrid: RNAseq + marker modules + spatial + virtual-cell MM      0.96               0.96
+regime_classification          Hybrid: marker modules + spatial + virtual-cell MM      0.96               0.96
+
+Future inflammatory-burden prediction:
+                                 task                                                       model       R2     RMSE      MAE
+future_inflammatory_burden_prediction                         Pure ML: pseudo-bulk marker modules 0.549299 0.071005 0.057701
+future_inflammatory_burden_prediction                          Pure ML: RNAseq-like gene features 0.395676 0.082221 0.068286
+future_inflammatory_burden_prediction                      Pure ML: bulk + spatial marker modules 0.713688 0.056594 0.043666
+future_inflammatory_burden_prediction                          Mechanistic virtual-cell summaries 0.996587 0.006179 0.003595
+future_inflammatory_burden_prediction Hybrid: RNAseq + marker modules + spatial + virtual-cell MM 0.996378 0.006366 0.004097
+future_inflammatory_burden_prediction          Hybrid: marker modules + spatial + virtual-cell MM 0.996378 0.006366 0.004097
+
+Best-intervention prediction:
+                        task                                                       model  accuracy  balanced_accuracy
+best_intervention_prediction                         Pure ML: pseudo-bulk marker modules      0.40           0.181818
+best_intervention_prediction                          Pure ML: RNAseq-like gene features      0.42           0.190909
+best_intervention_prediction                      Pure ML: bulk + spatial marker modules      0.40           0.181818
+best_intervention_prediction                          Mechanistic virtual-cell summaries      0.44           0.261472
+best_intervention_prediction Hybrid: RNAseq + marker modules + spatial + virtual-cell MM      0.38           0.183117
+best_intervention_prediction          Hybrid: marker modules + spatial + virtual-cell MM      0.38           0.183117
+
+Mean parameter-recovery R2:
+                                                      model        R2
+Hybrid: RNAseq + marker modules + spatial + virtual-cell MM  0.775040
+         Hybrid: marker modules + spatial + virtual-cell MM  0.775040
+                         Mechanistic virtual-cell summaries  0.794499
+                         Pure ML: RNAseq-like gene features -0.014686
+                     Pure ML: bulk + spatial marker modules  0.171997
+                        Pure ML: pseudo-bulk marker modules  0.026748
+
+Interpretation:
+The model tests whether marker-gene-informed virtual cell functions improve the
+ability to decode inflammatory immune dynamics from transcriptomic data. Spatial
+marker modules help distinguish immune exclusion, exhaustion, suppressive niches,
+and unresolved damage that may be obscured in pseudo-bulk averages. The hybrid
+model uses transcriptomic/spatial observations plus mechanistic virtual-cell
+summaries to recover hidden parameters such as ECM/stromal barrier strength, NFkB gain,
+TGF-beta/regulatory gain, exhaustion gain, cytotoxic gain, injury strength, and
+repair capacity.

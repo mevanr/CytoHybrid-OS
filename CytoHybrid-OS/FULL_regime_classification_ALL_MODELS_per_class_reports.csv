@@ -1,0 +1,127 @@
+task,model,split,class_or_average,status,precision,recall,f1-score,support
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,acute_resolving,ok,0.4,0.2,0.26666666666666666,10.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,chronic,ok,0.25,0.1,0.14285714285714285,10.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,hyperinflammatory,ok,0.36363636363636365,0.4,0.38095238095238093,10.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,immune_excluded,ok,0.5454545454545454,0.6,0.5714285714285714,10.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,suppressed,ok,0.3684210526315789,0.7,0.4827586206896552,10.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,macro avg,ok,0.3855023923444976,0.4,0.36893267651888345,50.0
+regime_classification_all_models,Pure ML: pseudo-bulk marker modules,test,weighted avg,ok,0.3855023923444976,0.4,0.3689326765188834,50.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,acute_resolving,ok,0.36363636363636365,0.4,0.38095238095238093,10.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,chronic,ok,0.2727272727272727,0.3,0.2857142857142857,10.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,hyperinflammatory,ok,0.25,0.2,0.2222222222222222,10.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,immune_excluded,ok,0.4,0.2,0.26666666666666666,10.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,suppressed,ok,0.26666666666666666,0.4,0.32,10.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,macro avg,ok,0.3106060606060606,0.3,0.2951111111111111,50.0
+regime_classification_all_models,Pure ML: RNAseq-like gene features,test,weighted avg,ok,0.3106060606060606,0.3,0.2951111111111111,50.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,acute_resolving,ok,0.5714285714285714,0.4,0.47058823529411764,10.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,chronic,ok,0.3333333333333333,0.3,0.3157894736842105,10.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,hyperinflammatory,ok,0.5714285714285714,0.4,0.47058823529411764,10.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,immune_excluded,ok,0.5555555555555556,0.5,0.5263157894736842,10.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,suppressed,ok,0.4444444444444444,0.8,0.5714285714285714,10.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,macro avg,ok,0.49523809523809526,0.4800000000000001,0.4709420610349403,50.0
+regime_classification_all_models,Pure ML: bulk + spatial marker modules,test,weighted avg,ok,0.4952380952380952,0.48,0.4709420610349403,50.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,acute_resolving,ok,1.0,1.0,1.0,10.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,chronic,ok,0.8333333333333334,1.0,0.9090909090909091,10.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,hyperinflammatory,ok,1.0,0.9,0.9473684210526315,10.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,immune_excluded,ok,1.0,0.9,0.9473684210526315,10.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,suppressed,ok,1.0,1.0,1.0,10.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,macro avg,ok,0.9666666666666668,0.96,0.9607655502392344,50.0
+regime_classification_all_models,Mechanistic virtual-cell summaries,test,weighted avg,ok,0.9666666666666667,0.96,0.9607655502392345,50.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,acute_resolving,ok,1.0,1.0,1.0,10.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,chronic,ok,0.8333333333333334,1.0,0.9090909090909091,10.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,hyperinflammatory,ok,1.0,0.9,0.9473684210526315,10.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,immune_excluded,ok,1.0,0.9,0.9473684210526315,10.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,suppressed,ok,1.0,1.0,1.0,10.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,macro avg,ok,0.9666666666666668,0.96,0.9607655502392344,50.0
+regime_classification_all_models,Hybrid Type I: feature concatenation,test,weighted avg,ok,0.9666666666666667,0.96,0.9607655502392345,50.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,acute_resolving,ok,0.75,0.6,0.6666666666666666,10.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,chronic,ok,0.7272727272727273,0.8,0.7619047619047619,10.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,hyperinflammatory,ok,0.4444444444444444,0.4,0.42105263157894735,10.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,immune_excluded,ok,0.5714285714285714,0.4,0.47058823529411764,10.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,suppressed,ok,0.6666666666666666,1.0,0.8,10.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,macro avg,ok,0.631962481962482,0.6399999999999999,0.6240424590888987,50.0
+regime_classification_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,weighted avg,ok,0.631962481962482,0.64,0.6240424590888987,50.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,acute_resolving,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,chronic,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,immune_excluded,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,suppressed,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,macro avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,train,weighted avg,ok,1.0,1.0,1.0,150.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,acute_resolving,ok,1.0,1.0,1.0,10.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,chronic,ok,0.8333333333333334,1.0,0.9090909090909091,10.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,hyperinflammatory,ok,1.0,0.8,0.8888888888888888,10.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,immune_excluded,ok,1.0,0.9,0.9473684210526315,10.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,suppressed,ok,0.9090909090909091,1.0,0.9523809523809523,10.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,macro avg,ok,0.9484848484848485,0.9399999999999998,0.9395458342826764,50.0
+regime_classification_all_models,Hybrid Type II: MM prediction + AI residual correction,test,weighted avg,ok,0.9484848484848485,0.94,0.9395458342826764,50.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,acute_resolving,ok,0.9354838709677419,0.9666666666666667,0.9508196721311475,30.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,chronic,ok,0.9655172413793104,0.9333333333333333,0.9491525423728814,30.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,hyperinflammatory,ok,1.0,1.0,1.0,30.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,immune_excluded,ok,0.9310344827586207,0.9,0.9152542372881356,30.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,suppressed,ok,0.9354838709677419,0.9666666666666667,0.9508196721311475,30.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,macro avg,ok,0.9535038932146829,0.9533333333333334,0.9532092247846624,150.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,weighted avg,ok,0.953503893214683,0.9533333333333334,0.9532092247846625,150.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,acute_resolving,ok,0.0,0.0,0.0,10.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,chronic,ok,0.1875,0.3,0.23076923076923078,10.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,hyperinflammatory,ok,0.5,0.4,0.4444444444444444,10.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,immune_excluded,ok,0.25,0.1,0.14285714285714285,10.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,suppressed,ok,0.3,0.6,0.4,10.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,macro avg,ok,0.2475,0.27999999999999997,0.24361416361416363,50.0
+regime_classification_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,weighted avg,ok,0.2475,0.28,0.24361416361416363,50.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,acute_resolving,ok,0.7857142857142857,0.7333333333333333,0.7586206896551724,30.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,chronic,ok,0.71875,0.7666666666666667,0.7419354838709677,30.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,hyperinflammatory,ok,0.7916666666666666,0.6333333333333333,0.7037037037037037,30.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,immune_excluded,ok,0.7272727272727273,0.8,0.7619047619047619,30.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,suppressed,ok,0.7878787878787878,0.8666666666666667,0.8253968253968254,30.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,macro avg,ok,0.7622564935064935,0.76,0.7583122929062862,150.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,train,weighted avg,ok,0.7622564935064936,0.76,0.7583122929062862,150.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,acute_resolving,ok,0.0,0.0,0.0,10.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,chronic,ok,0.1891891891891892,0.7,0.2978723404255319,10.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,hyperinflammatory,ok,0.1,0.1,0.1,10.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,immune_excluded,ok,0.0,0.0,0.0,10.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,suppressed,ok,0.0,0.0,0.0,10.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,macro avg,ok,0.057837837837837844,0.15999999999999998,0.07957446808510638,50.0
+regime_classification_all_models,Hybrid Type IV: reduced state-space PINN,test,weighted avg,ok,0.057837837837837844,0.16,0.07957446808510638,50.0

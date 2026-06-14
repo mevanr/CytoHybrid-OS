@@ -1,0 +1,7 @@
+task,model,accuracy,balanced_accuracy
+best_intervention_prediction,Pure ML: pseudo-bulk marker modules,0.4,0.18181818181818182
+best_intervention_prediction,Pure ML: RNAseq-like gene features,0.42,0.19090909090909092
+best_intervention_prediction,Pure ML: bulk + spatial marker modules,0.4,0.18181818181818182
+best_intervention_prediction,Mechanistic virtual-cell summaries,0.44,0.26147186147186147
+best_intervention_prediction,Hybrid: RNAseq + marker modules + spatial + virtual-cell MM,0.38,0.1831168831168831
+best_intervention_prediction,Hybrid: marker modules + spatial + virtual-cell MM,0.38,0.1831168831168831

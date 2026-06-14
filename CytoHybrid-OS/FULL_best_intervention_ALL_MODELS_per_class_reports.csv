@@ -1,0 +1,127 @@
+task,model,split,class_or_average,status,precision,recall,f1-score,support
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,anti_cytokine,ok,0.0,0.0,0.0,14.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,combination,ok,0.4318181818181818,0.8636363636363636,0.5757575757575758,22.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,macro avg,ok,0.08636363636363636,0.17272727272727273,0.11515151515151516,50.0
+best_intervention_all_models,Pure ML: pseudo-bulk marker modules,test,weighted avg,ok,0.19,0.38,0.25333333333333335,50.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,anti_cytokine,ok,0.0,0.0,0.0,14.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,combination,ok,0.42857142857142855,0.9545454545454546,0.5915492957746479,22.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,macro avg,ok,0.08571428571428572,0.19090909090909092,0.11830985915492957,50.0
+best_intervention_all_models,Pure ML: RNAseq-like gene features,test,weighted avg,ok,0.18857142857142858,0.42,0.26028169014084507,50.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,anti_cytokine,ok,0.25,0.07142857142857142,0.1111111111111111,14.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,combination,ok,0.4878048780487805,0.9090909090909091,0.6349206349206349,22.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,macro avg,ok,0.1475609756097561,0.19610389610389609,0.1492063492063492,50.0
+best_intervention_all_models,Pure ML: bulk + spatial marker modules,test,weighted avg,ok,0.2846341463414634,0.42,0.31047619047619046,50.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,anti_cytokine,ok,0.4,0.42857142857142855,0.41379310344827586,14.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,combination,ok,0.5454545454545454,0.5454545454545454,0.5454545454545454,22.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,pro_resolution,ok,0.23076923076923078,0.25,0.24,12.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,macro avg,ok,0.23524475524475524,0.2448051948051948,0.23984952978056423,50.0
+best_intervention_all_models,Mechanistic virtual-cell summaries,test,weighted avg,ok,0.40738461538461546,0.42,0.4134620689655172,50.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,anti_cytokine,ok,0.375,0.21428571428571427,0.2727272727272727,14.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,combination,ok,0.4722222222222222,0.7727272727272727,0.5862068965517241,22.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,macro avg,ok,0.16944444444444445,0.1974025974025974,0.17178683385579935,50.0
+best_intervention_all_models,Hybrid Type I: feature concatenation,test,weighted avg,ok,0.31277777777777777,0.4,0.33429467084639497,50.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,anti_cytokine,ok,0.0,0.0,0.0,14.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,combination,ok,0.4375,0.9545454545454546,0.6,22.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,macro avg,ok,0.0875,0.19090909090909092,0.12,50.0
+best_intervention_all_models,Hybrid Type IV/V: biology-informed residual-dynamics proxy,test,weighted avg,ok,0.1925,0.42,0.264,50.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,anti_cytokine,ok,1.0,1.0,1.0,42.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,barrier_modulation,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,combination,ok,1.0,1.0,1.0,65.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,pro_resolution,ok,1.0,1.0,1.0,35.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,macro avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,train,weighted avg,ok,1.0,1.0,1.0,150.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,anti_cytokine,ok,0.4444444444444444,0.2857142857142857,0.34782608695652173,14.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,combination,ok,0.5151515151515151,0.7727272727272727,0.6181818181818182,22.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,pro_resolution,ok,0.25,0.16666666666666666,0.2,12.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,macro avg,ok,0.24191919191919192,0.24502164502164506,0.23320158102766797,50.0
+best_intervention_all_models,Hybrid Type II: MM prediction + AI residual correction,test,weighted avg,ok,0.4111111111111111,0.46,0.4173913043478261,50.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,anti_cytokine,ok,1.0,0.9761904761904762,0.9879518072289156,42.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,anti_exhaustion,ok,1.0,1.0,1.0,4.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,barrier_modulation,ok,0.8,1.0,0.8888888888888888,4.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,combination,ok,0.984375,0.9692307692307692,0.9767441860465116,65.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,pro_resolution,ok,0.9722222222222222,1.0,0.9859154929577465,35.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,macro avg,ok,0.9513194444444444,0.9890842490842491,0.9679000750244124,150.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,train,weighted avg,ok,0.9814143518518519,0.98,0.9802996387047626,150.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,anti_cytokine,ok,0.25,0.07142857142857142,0.1111111111111111,14.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,combination,ok,0.5384615384615384,0.6363636363636364,0.5833333333333334,22.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,pro_resolution,ok,0.0,0.0,0.0,12.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,macro avg,ok,0.1576923076923077,0.14155844155844155,0.1388888888888889,50.0
+best_intervention_all_models,Hybrid Type V: Neural-ODE learned residual dynamics,test,weighted avg,ok,0.3069230769230769,0.3,0.2877777777777778,50.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,anti_cytokine,ok,0.7560975609756098,0.7380952380952381,0.7469879518072289,42.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,anti_exhaustion,ok,0.6666666666666666,1.0,0.8,4.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,barrier_modulation,ok,0.4444444444444444,1.0,0.6153846153846154,4.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,combination,ok,0.8928571428571429,0.7692307692307693,0.8264462809917356,65.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,pro_resolution,ok,0.7631578947368421,0.8285714285714286,0.7945205479452054,35.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,macro avg,ok,0.7046447419361412,0.8671794871794871,0.7566678792257571,150.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,train,weighted avg,ok,0.8063118840461588,0.7866666666666666,0.7904150658665806,150.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,anti_cytokine,ok,0.30303030303030304,0.7142857142857143,0.425531914893617,14.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,anti_exhaustion,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,barrier_modulation,ok,0.0,0.0,0.0,1.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,combination,ok,0.8,0.18181818181818182,0.2962962962962963,22.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,pro_resolution,ok,0.2,0.08333333333333333,0.11764705882352941,12.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,macro avg,ok,0.2606060606060606,0.1958874458874459,0.16789505400268853,50.0
+best_intervention_all_models,Hybrid Type IV: reduced state-space PINN,test,weighted avg,ok,0.48484848484848486,0.3,0.2777546006582302,50.0

@@ -1,0 +1,206 @@
+{
+  "args": {
+    "n_per_regime": 40,
+    "grid_size": 45,
+    "n_initial_cells": 120,
+    "duration": 60.0,
+    "dt": 1.0,
+    "record_every": 5,
+    "seed": 42,
+    "outdir": "output_transcriptomics_virtual_tissue2",
+    "skip_interventions": false,
+    "run_drug_learning": false,
+    "drug_n_patients_per_regime": 16,
+    "drug_observation_time": 15.0,
+    "drug_final_time": null,
+    "few_shot_values": "1,2",
+    "skip_realistic_spatial_plots": false
+  },
+  "n_subjects": 200,
+  "regimes": [
+    "acute_resolving",
+    "chronic",
+    "hyperinflammatory",
+    "immune_excluded",
+    "suppressed"
+  ],
+  "gene_programs": [
+    "NFkB_inflammatory",
+    "STAT3_IL6",
+    "IFNG_response",
+    "cytotoxic_program",
+    "exhaustion_program",
+    "TGFB_regulatory",
+    "repair_program",
+    "migration_program"
+  ],
+  "rna_modules": [
+    "MACROPHAGE",
+    "T_CELL_CYTOTOXIC",
+    "TREG",
+    "NK_CELL",
+    "TNF_NFKB",
+    "IL6_JAK_STAT3",
+    "IFNG_RESPONSE",
+    "CYTOTOXICITY_GZMB_PRF1_NKG7",
+    "EXHAUSTION_PD1_LAG3_TIM3",
+    "TGFB_SIGNALING",
+    "TREG_FOXP3_IL2RA_CTLA4",
+    "M2_REPAIR_CD163_MRC1_IL10",
+    "DAMAGE_STRESS",
+    "HYPOXIA",
+    "APOPTOSIS",
+    "MYELOID_SUPPRESSION",
+    "EMT_FIBROSIS",
+    "ECM_STROMAL_BARRIER",
+    "ECM_REMODELING",
+    "WOUND_HEALING",
+    "INFLAMMATORY_RESPONSE"
+  ],
+  "classification": [
+    {
+      "task": "regime_classification",
+      "model": "Pure ML: pseudo-bulk marker modules",
+      "accuracy": 0.42,
+      "balanced_accuracy": 0.41999999999999993
+    },
+    {
+      "task": "regime_classification",
+      "model": "Pure ML: RNAseq-like gene features",
+      "accuracy": 0.26,
+      "balanced_accuracy": 0.25999999999999995
+    },
+    {
+      "task": "regime_classification",
+      "model": "Pure ML: bulk + spatial marker modules",
+      "accuracy": 0.48,
+      "balanced_accuracy": 0.4800000000000001
+    },
+    {
+      "task": "regime_classification",
+      "model": "Mechanistic virtual-cell summaries",
+      "accuracy": 0.96,
+      "balanced_accuracy": 0.96
+    },
+    {
+      "task": "regime_classification",
+      "model": "Hybrid: RNAseq + marker modules + spatial + virtual-cell MM",
+      "accuracy": 0.96,
+      "balanced_accuracy": 0.96
+    },
+    {
+      "task": "regime_classification",
+      "model": "Hybrid: marker modules + spatial + virtual-cell MM",
+      "accuracy": 0.96,
+      "balanced_accuracy": 0.96
+    }
+  ],
+  "future_burden": [
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Pure ML: pseudo-bulk marker modules",
+      "R2": 0.5492991861774896,
+      "RMSE": 0.07100540754564444,
+      "MAE": 0.05770059500195213
+    },
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Pure ML: RNAseq-like gene features",
+      "R2": 0.3956755227478065,
+      "RMSE": 0.0822209226316559,
+      "MAE": 0.0682863974175957
+    },
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Pure ML: bulk + spatial marker modules",
+      "R2": 0.7136875034527688,
+      "RMSE": 0.05659361099321973,
+      "MAE": 0.043665613330862385
+    },
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Mechanistic virtual-cell summaries",
+      "R2": 0.996587127831814,
+      "RMSE": 0.006178844479036009,
+      "MAE": 0.0035948851705458946
+    },
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Hybrid: RNAseq + marker modules + spatial + virtual-cell MM",
+      "R2": 0.9963776882339862,
+      "RMSE": 0.006365612041747427,
+      "MAE": 0.004096539680963396
+    },
+    {
+      "task": "future_inflammatory_burden_prediction",
+      "model": "Hybrid: marker modules + spatial + virtual-cell MM",
+      "R2": 0.9963776882339862,
+      "RMSE": 0.006365612041747442,
+      "MAE": 0.004096539680963408
+    }
+  ],
+  "intervention": [
+    {
+      "task": "best_intervention_prediction",
+      "model": "Pure ML: pseudo-bulk marker modules",
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.18181818181818182
+    },
+    {
+      "task": "best_intervention_prediction",
+      "model": "Pure ML: RNAseq-like gene features",
+      "accuracy": 0.42,
+      "balanced_accuracy": 0.19090909090909092
+    },
+    {
+      "task": "best_intervention_prediction",
+      "model": "Pure ML: bulk + spatial marker modules",
+      "accuracy": 0.4,
+      "balanced_accuracy": 0.18181818181818182
+    },
+    {
+      "task": "best_intervention_prediction",
+      "model": "Mechanistic virtual-cell summaries",
+      "accuracy": 0.44,
+      "balanced_accuracy": 0.26147186147186147
+    },
+    {
+      "task": "best_intervention_prediction",
+      "model": "Hybrid: RNAseq + marker modules + spatial + virtual-cell MM",
+      "accuracy": 0.38,
+      "balanced_accuracy": 0.1831168831168831
+    },
+    {
+      "task": "best_intervention_prediction",
+      "model": "Hybrid: marker modules + spatial + virtual-cell MM",
+      "accuracy": 0.38,
+      "balanced_accuracy": 0.1831168831168831
+    }
+  ],
+  "parameter_recovery_mean_R2": [
+    {
+      "model": "Hybrid: RNAseq + marker modules + spatial + virtual-cell MM",
+      "R2": 0.7750396943467909
+    },
+    {
+      "model": "Hybrid: marker modules + spatial + virtual-cell MM",
+      "R2": 0.7750396943467909
+    },
+    {
+      "model": "Mechanistic virtual-cell summaries",
+      "R2": 0.7944987725002465
+    },
+    {
+      "model": "Pure ML: RNAseq-like gene features",
+      "R2": -0.01468561491993956
+    },
+    {
+      "model": "Pure ML: bulk + spatial marker modules",
+      "R2": 0.17199706229628753
+    },
+    {
+      "model": "Pure ML: pseudo-bulk marker modules",
+      "R2": 0.02674764989481547
+    }
+  ]
+}
